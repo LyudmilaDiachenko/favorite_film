@@ -1,17 +1,31 @@
 .img{
-    width: 450px;
-    height: 100%;
+    width: 400px;
+    height: calc(100% - 40px);
     margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.title{
+    display: block;
+    text-align: center;
 }
 .text_container{
-    margin-top: 50px;
+    margin-top: 25px;
 }
 .text{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
-    line-height: 30px;
+    line-height: 20px;
 }
 .min_text{
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
+}
+.img_container{
+    margin-top: 10px;
+}
+.afisha_img{
+    height: 190px;
+    margin-right: 10px;  
 }
